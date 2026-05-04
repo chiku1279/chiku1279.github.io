@@ -2826,6 +2826,23 @@ input[type="button"].btn-block {
   .btn-group-vertical > .btn-group:not(:first-child) > .btn {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
+    
+    .btn-download {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 5px;        /* rounded corners */
+  background-color: black;   /* button background */
+  color: yellow;             /* keep your font color */
+  text-decoration: none;     /* remove underline */
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+  background-color: #333;    /* subtle hover effect */
+  color: yellow;             /* keep font color same */
+}
+
 
 .btn-group-toggle > .btn,
 .btn-group-toggle > .btn-group > .btn {
